@@ -1,3 +1,18 @@
+body{margin-top:60px;
+  background-color:lightblue;
+}
+.headline{
+  color:white;
+  background-color: black;
+ font-weight: bold;
+}
+.manga-container{
+width:100%;
+display: flex;
+flex-direction:column;
+}
+img{width: 90%;
+margin-left:5%;}
 .header{
 display: flex;
 position:fixed;
@@ -5,7 +20,62 @@ left:0;
 right:0;
 top:0;
 flex:1;
-height:50px;
-background-color:red;
-
+height:60px;
+border: 0;
+background-color:rgb(245, 13, 13);
+box-shadow:0 0 15px ;
 }
+.section1{
+
+  flex:2;display:flex;
+  justify-content:start;
+  align-items:center;
+}
+.logo{
+  border:1px solid;
+color:lightblue;
+font-size:30px;
+font-style:initial;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border:0;
+  background-color: black;
+  margin-right:20px;
+  box-shadow:0 0 15px white;
+}
+.section2{
+
+  flex:2;
+display:flex; 
+justify-content: center;
+align-items: center; 
+}
+
+.Mangalist{
+width:30vw;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: large;
+height:40px;
+background-color: rgba(250, 250, 61, 0.973);
+text-decoration:dashed;
+border-radius:10px;
+color:gray;
+border:0;
+box-shadow:0 0 15px brown;
+padding:10px;
+}
+span{text-decoration: solid;
+  margin-left:5px;
+color:red;
+background-color:white;
+text-shadow: 0 0 15px yellow ;
+
+max-width:200px;
+min-width:100px;
+}
+h1{font-size:small;
+
+  max-width:200px;
+  min-width:100px;
+}
+
