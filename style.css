@@ -1,9 +1,10 @@
 body{margin-top:60px;
-  background-color:lightblue;
+  background-color: black;
 }
 .headline{
   color:white;
-  background-color: black;
+  display: flex;
+  justify-content: center;
  font-weight: bold;
 }
 .manga-container{
@@ -13,6 +14,7 @@ flex-direction:column;
 }
 img{width: 90%;
 margin-left:5%;}
+
 .header{
 display: flex;
 position:fixed;
@@ -20,10 +22,10 @@ left:0;
 right:0;
 top:0;
 flex:1;
-height:60px;
+height:70px;
 border: 0;
-background-color:rgb(245, 13, 13);
-box-shadow:0 0 15px ;
+box-shadow:0 0 1px white;
+background-color:rgb(0, 0, 0);
 }
 .section1{
 
@@ -31,20 +33,10 @@ box-shadow:0 0 15px ;
   justify-content:start;
   align-items:center;
 }
-.logo{
-  border:1px solid;
-color:lightblue;
-font-size:30px;
-font-style:initial;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border:0;
-  background-color: black;
-  margin-right:20px;
-  box-shadow:0 0 15px white;
-}
+
 .section2{
 
-  flex:2;
+  flex:1;
 display:flex; 
 justify-content: center;
 align-items: center; 
@@ -56,26 +48,26 @@ font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-size: large;
 height:40px;
-background-color: rgba(250, 250, 61, 0.973);
 text-decoration:dashed;
 border-radius:10px;
-color:gray;
+color:yellow;
+background-color: black;
 border:0;
-box-shadow:0 0 15px brown;
+box-shadow:0 0 2px lightblue;
 padding:10px;
 }
 span{text-decoration: solid;
   margin-left:5px;
 color:red;
-background-color:white;
-text-shadow: 0 0 15px yellow ;
-
+text-shadow: 0 0 15px ;
 max-width:200px;
 min-width:100px;
+font-size:22px;
+background-color: black;
+box-shadow:0 0 2px white;
+
 }
 h1{font-size:small;
-
   max-width:600px;
-  min-width:100px;
+  min-width:0px;
 }
-
